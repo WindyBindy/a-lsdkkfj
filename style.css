@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+}
+.container {
+	padding-left: 56px;
+	padding-right: 56px;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	padding-top: 340px;
+	background-image: url(./Снимок\ экрана\ 2025-05-03\ 201720.png);
+}
+
+div {
+	border: solid black 1px;
+	border-radius: 12px;
+	padding: 50px;
+	backdrop-filter: blur(10px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1 {
+	font-family: 'Raleway';
+}
+
+ul {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
